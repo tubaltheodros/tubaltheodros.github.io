@@ -133,3 +133,13 @@
   span.highlight {
     background-color: #ffffd0;
   }
+
+  img.project-logo {
+    width: 160px;       /* Or height: 160px for consistent vertical space */
+    height: auto;       /* Maintains aspect ratio */
+    padding: 0;
+    margin: 0;
+    display: block;
+    object-fit: contain; /* Ensures image content fits nicely */
+  }
+  
